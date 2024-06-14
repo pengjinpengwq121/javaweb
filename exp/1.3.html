@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width , initial-scale=1 , user-scalable=no">
     <!-- 
    增加 user-scalable=no，可以让移动设备的屏幕宽度和高度，与window对象的innerWidth和innerHeight精确对应
   -->
@@ -31,6 +31,7 @@
         header {
             border: 2px solid black;
             height: 15%;
+            background-color: aqua;
             font-size: 1.66em;
             box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.2);
         }
@@ -38,7 +39,7 @@
         main {
             background-color: rgb(247, 247, 247);
             border: 2px solid black;
-            height: 70%;
+            height: 80%;
             font-size: 1.2em;
             display: flex;
             box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.2);
@@ -52,7 +53,7 @@
             box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.4);
         }
         
-        nav {
+        /* nav {
             background-color: rgb(247, 247, 247);
             border: 2px solid black;
             height: 10%;
@@ -67,13 +68,14 @@
             border-radius: 8px;
             cursor: pointer;
             /* 鼠标悬停效果 */
-            transition: background-color 0.3s ease;
+            /* transition: background-color 0.3s ease; */
             /* 平滑过渡效果 */
-        }
+        /* } */ 
         
         footer {
             border: 2px solid black;
             height: 5%;
+            background-color: chocolate;
             box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.2);
         }
     </style>
@@ -85,13 +87,11 @@
             作品展示
         </p>
     </header>
-    <nav>
+    <!-- <nav>
         <button title="功能未实现">导航1</button>
         <button title="功能未实现">导航2</button>
         <button title="功能未实现">导航3</button>
-    </nav>
-
-
+    </nav> -->
     <main id="main">
         <p class="Content">
             内容展示区
