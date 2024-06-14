@@ -1,0 +1,105 @@
+* {
+    margin: 2px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-family: "KaiTi", "楷体", "SimKai", "STKaiti", serif;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* 标准语法 */
+  }
+  
+  header {
+    border: 2px solid black;
+    background-color: #74ebd5;
+    height: 15%;
+    font-size: 1.66em;
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  main {
+    background-color: rgb(152, 27, 27);
+    border: 2px solid black;
+    height: 80%;
+    font-size: 1.2em;
+    display: flex;
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  #Content {
+    font-size: 1.1em;
+    position: relative;
+    width: 75%;
+    background-size: 100% 100%;
+    transition: background-image 0.8s ease-in-out;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-color: #ffdee9;
+    background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  }
+  
+  nav {
+    background-color: rgb(247, 247, 247);
+    border: 2px solid black;
+    height: 10%;
+  }
+  
+  nav button {
+    font-size: 0.8em;
+    padding: 13px 13px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+    border-radius: 8px;
+    cursor: pointer;
+    /* 鼠标悬停效果 */
+    transition: background-color 0.3s ease;
+    /* 平滑过渡效果 */
+  }
+  
+  footer {
+    border: 2px solid black;
+    height: 5%;
+    background-color: antiquewhite;
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  #aid {
+    top: 0.3em;
+    left: 650px;
+    position: absolute;
+    align-content: normal;
+    border: 2px solid black;
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  #userResponseArea {
+    margin: 0.8em;
+    font-size: 1.66em;
+  }
+  
+  #keyboard {
+    background-color: #74ebd5;
+    background-image: linear-gradient(90deg, #097a65 0%, #9face6 100%);
+    border: 3px solid black;
+    margin-left: 10%;
+    width: 80%;
+    height: 60%;
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  }
+  
+  #displayCode {
+    border: 3px solid rgb(146, 39, 39);
+    margin-left: 10%;
+    width: 80%;
+    position: absolute;
+    bottom: 0.3em;
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  }
